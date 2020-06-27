@@ -1,0 +1,30 @@
+.nav-top {
+  display: flex;
+  background-color: #BFD0EA;
+  padding-left: 15px;
+
+  li {
+    list-style: none;
+    border-right: 1px solid;
+    padding-right: 5px;
+    margin-left: 5px;
+
+    &:last-child {
+      border: none
+    }
+  }
+  
+  &__link {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: #fff
+    }
+  }
+
+  &__link + &__link  {
+  }
+}
