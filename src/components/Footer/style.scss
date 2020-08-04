@@ -1,0 +1,16 @@
+$prymaryColor: #A1BBE4;
+$borderColor: #D4DDED;
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  #disclaimer{
+    border-top: $borderColor solid 1px;    
+  }
+  #links{
+    background-color: $prymaryColor;
+    color: white;
+    border-top: $borderColor solid 1px;
+  }
+}
